@@ -16,6 +16,10 @@
 | 栖记 | 隐私政策（English） | https://wujianrenn.github.io/apps-privacy/qiji/en.html |
 | 栖记 | 支持（简体中文） | https://wujianrenn.github.io/apps-privacy/qiji/support.html |
 | 栖记 | 支持（English） | https://wujianrenn.github.io/apps-privacy/qiji/support-en.html |
+| **啡迹 (Coffee Journal)** | 隐私政策（简体中文） | https://wujianrenn.github.io/apps-privacy/coffee/ |
+| 啡迹 | 隐私政策（English） | https://wujianrenn.github.io/apps-privacy/coffee/en.html |
+| 啡迹 | 支持（简体中文） | https://wujianrenn.github.io/apps-privacy/coffee/support.html |
+| 啡迹 | 支持（English） | https://wujianrenn.github.io/apps-privacy/coffee/support-en.html |
 
 站点首页（应用列表）：https://wujianrenn.github.io/apps-privacy/
 
@@ -98,3 +102,7 @@ git push origin main
 ## 许可与联系
 
 页面内容由各应用开发者维护。联系邮箱见各支持页面。
+
+## 啡迹页面源文件
+
+维护源位于 coffee 项目的 `docs/release/privacy-site/coffee/`；页面与 App 内离线隐私政策由 `scripts/generate_privacy_pages.py` 同步生成。正式英文品牌确定后应同时更新页面、App 显示名和商店资料。
