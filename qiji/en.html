@@ -95,24 +95,28 @@
     </nav>
 
     <h1>Privacy Policy — 栖记 (QiJi)</h1>
-    <p class="updated">Last updated: June 16, 2026</p>
+    <p class="updated">Last updated: November 23, 2026</p>
 
     <p>Thank you for using <strong>栖记 (QiJi)</strong> ("the App"). Your privacy matters to us. This policy explains, plainly and accurately, how the App handles your information.</p>
 
     <h2>Summary</h2>
-    <p><strong>The App collects no personal data.</strong> Every stay you log stays on your device. There are no analytics, no advertising, no third-party SDKs, no tracking, and no user account.</p>
+    <p><strong>The developer does not receive your stay records.</strong> Your records stay on your device; optional lookups send the relevant search text to the services described below. There are no analytics, no advertising, no third-party SDKs, no tracking, and no user account.</p>
 
     <h2>What data the App stores</h2>
-    <p>The App lets you keep a personal accommodation journal (platform, hotel name, city, coordinates, check-in/out dates, price, notes, and more). All of this is stored <strong>locally on your device</strong> using Apple's <strong>UserDefaults</strong>. This data is never sent to us or to any third-party server through the App.</p>
+    <p>The App lets you keep a personal accommodation journal (platform, hotel name, city, coordinates, check-in/out dates, price, notes, and more). Records are stored <strong>locally on your device</strong> using Apple's <strong>UserDefaults</strong>. Your stay list is not uploaded to the developer. The optional lookups described below send only the relevant search text to their service providers.</p>
 
     <h2>Network use (optional features)</h2>
     <p>The App <strong>does not request GPS location permission</strong> and does not read your device's real-time location.</p>
     <p>In these optional cases, the system may use the network to reach Apple's geocoding and map services (e.g. <strong>CLGeocoder</strong>, <strong>MKLocalSearch</strong>):</p>
     <ul>
       <li>You choose "Other" city and enter a custom city name when adding a stay;</li>
-      <li>You paste a hotel name to run POI search for a precise map pin.</li>
+      <li>You type or paste a hotel name to search for a place, or the App resolves map coordinates for an existing stay.</li>
     </ul>
     <p>These requests only turn <strong>text you type</strong> into coordinates or place results. They <strong>do not upload your stay list</strong> and are not used for ads or tracking. Map tiles are provided by Apple MapKit.</p>
+    <p>When you search for a booking platform or hotel brand, the App may send <strong>the keywords in that search field</strong> to Apple's App Store search service to retrieve app names and icons. Icons are downloaded from Apple's image service and cached. Your stays, dates, prices, and notes are not uploaded by this feature. You can also skip online results and add a custom platform or brand using the name you enter.</p>
+
+    <p>When Apple services cannot find a suitable overseas place, the App may also send the hotel name and city text to <strong>Nominatim, operated by the OpenStreetMap Foundation</strong> (nominatim.openstreetmap.org), to resolve map coordinates. This query does not include stay dates, prices, notes, or your full record list.</p>
+    <p>Service providers receive information needed to handle network requests, such as query text and your IP address. Their processing is governed by their own policies: <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation Privacy Policy</a>. The developer has no server that receives your stay records.</p>
 
     <h2>Data we do NOT collect</h2>
     <ul>
@@ -127,16 +131,16 @@
     <p>Booking-platform icons in the App identify the <strong>source you manually select</strong> for a stay. They do not imply official partnership, agency booking, or data sharing with those platforms.</p>
 
     <h2>iCloud sync (optional, future)</h2>
-    <p>v1.0.0 has no iCloud backup or sync. If a future version offers iCloud synchronization, it would use <strong>your own private iCloud account</strong> via Apple's CloudKit. Your data would stay in your personal iCloud container under Apple's privacy terms, inaccessible to the developer. This would be optional and off by default.</p>
+    <p>The current version has no in-app iCloud backup or sync. If a future version offers iCloud synchronization, it would use <strong>your own private iCloud account</strong> via Apple's CloudKit. Your data would stay in your personal iCloud container under Apple's privacy terms, inaccessible to the developer. This would be optional and off by default.</p>
 
     <h2>Data sharing</h2>
-    <p>We do not sell, rent, or share your data with anyone, because we never receive it in the first place.</p>
+    <p>The developer does not sell or rent your stay records. Optional searches send query text to the service providers described above.</p>
 
     <h2>Children's privacy</h2>
     <p>The App does not knowingly collect any data from anyone, including children.</p>
 
     <h2>Your control over your data</h2>
-    <p>Because all data lives on your device, you are in full control. You can edit or delete any stay at any time, or delete the App to remove all of its data from your device. v1.0.0 does not include export.</p>
+    <p>Because all data lives on your device, you are in full control. You can edit or delete any stay at any time, or delete the App to remove all of its data from your device. The current version does not include export. System device backups are managed through your Apple settings.</p>
 
     <h2>Changes to this policy</h2>
     <p>If this policy changes, the updated version will be posted at the same URL with a new "Last updated" date.</p>
